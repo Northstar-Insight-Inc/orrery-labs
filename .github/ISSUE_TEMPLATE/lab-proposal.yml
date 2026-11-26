@@ -1,0 +1,29 @@
+name: Lab proposal
+description: Propose a new open lab
+labels: ["lab-proposal"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Working title
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who is it for?
+      description: Their starting point and what they need to learn.
+    validations:
+      required: true
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: What will they be able to do afterwards?
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: How would a second person check the result?
+    validations:
+      required: true
